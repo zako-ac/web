@@ -26,17 +26,17 @@ export function Footer() {
                         <h3 className="font-semibold">리소스</h3>
                         <ul className="space-y-2 text-sm text-muted-foreground">
                             <li>
-                                <a href="/docs/manual" className="hover:text-foreground transition-colors">
+                                <a href={`${import.meta.env.VITE_DOCS_URL}/manual`} className="hover:text-foreground transition-colors">
                                     문서
                                 </a>
                             </li>
                             <li>
-                                <a href="/docs" className="hover:text-foreground transition-colors">
+                                <a href={`${import.meta.env.VITE_DOCS_URL}`} className="hover:text-foreground transition-colors">
                                     가이드
                                 </a>
                             </li>
                             <li>
-                                <a href="/docs/api" className="hover:text-foreground transition-colors">
+                                <a href={`${import.meta.env.VITE_DOCS_URL}/api`} className="hover:text-foreground transition-colors">
                                     API
                                 </a>
                             </li>
