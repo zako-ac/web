@@ -28,7 +28,7 @@ export function CTASection() {
                                 디스코드에 추가하기
                                 <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
                             </Button>
-                            <Button size="lg" variant="outline" className="gap-2 text-base px-8 py-6 bg-transparent" onClick={() => window.open("/docs", "_blank")}>
+                            <Button size="lg" variant="outline" className="gap-2 text-base px-8 py-6 bg-transparent" onClick={() => window.open(import.meta.env.VITE_DOCS_URL, "_blank")}>
                                 문서 살펴보기
                             </Button>
                         </div>
